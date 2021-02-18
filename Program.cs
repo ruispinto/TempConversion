@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using TempConversionClass;
 
 namespace TempConversion
 {
@@ -10,7 +7,9 @@ namespace TempConversion
     {
         static void Main(string[] args)
         {
+            ConversionCalculator calculator = new ConversionCalculator(32,'F');
 
+            Console.ReadLine();
         }
     }
 }
